@@ -1,4 +1,5 @@
 /* HOME */
+
 let pointsHome = 0
 let pointsGuest = 0
 
