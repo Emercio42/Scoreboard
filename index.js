@@ -2,35 +2,37 @@
 
 let pointsHome = 0
 let pointsGuest = 0
+let counterElHome = document.getElementById("counter-el-home")
+let counterElGuest = document.getElementById("counter-el-guest")
 
 function plusOneHome() {
     pointsHome++;
-    document.getElementById("counter-el-home").innerHTML = pointsHome;
+    counterElHome.textContent = pointsHome
 }
 
 function plusTwoHome() {
     pointsHome += 2;
-    document.getElementById("counter-el-home").innerHTML = pointsHome;
+    counterElHome.textContent = pointsHome
 }
 
 function plusThreeHome() {
     pointsHome += 3;
-    document.getElementById("counter-el-home").innerHTML = pointsHome;
+    counterElHome.textContent = pointsHome
 }
 
 /* GUEST */
 
 function plusOneGuest() {
     pointsGuest++;
-    document.getElementById("counter-el-guest").innerHTML = pointsGuest;
+    counterElGuest.textContent = pointsGuest
 }
 
 function plusTwoGuest() {
     pointsGuest += 2;
-    document.getElementById("counter-el-guest").innerHTML = pointsGuest;
+    counterElGuest.textContent = pointsGuest
 }
 
 function plusThreeGuest() {
     pointsGuest += 3;
-    document.getElementById("counter-el-guest").innerHTML = pointsGuest;
+    counterElGuest.textContent = pointsGuest
 }
