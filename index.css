@@ -41,6 +41,7 @@ h3 {
     height: 120px;
     font-family: CursedTimer;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 90px;
@@ -59,9 +60,8 @@ h3 {
     width: 45px;
     height: 45px;
     font-family: CursedTimer;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
     text-align: center;
+    background: inherit;
+    margin-top: 35px;
 }
+

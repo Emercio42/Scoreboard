@@ -1,13 +1,35 @@
-let number = 0
+/* HOME */
+let pointsHome = 0
+let pointsGuest = 0
 
-function plusOne() {
-    number ++
+function plusOneHome() {
+    pointsHome++;
+    document.getElementById("counter-el-home").innerHTML = pointsHome;
 }
 
-function plusTwo() {
-    number += 2
+function plusTwoHome() {
+    pointsHome += 2;
+    document.getElementById("counter-el-home").innerHTML = pointsHome;
 }
 
-function plusThree() {
-    number += 3
+function plusThreeHome() {
+    pointsHome += 3;
+    document.getElementById("counter-el-home").innerHTML = pointsHome;
+}
+
+/* GUEST */
+
+function plusOneGuest() {
+    pointsGuest++;
+    document.getElementById("counter-el-guest").innerHTML = pointsGuest;
+}
+
+function plusTwoGuest() {
+    pointsGuest += 2;
+    document.getElementById("counter-el-guest").innerHTML = pointsGuest;
+}
+
+function plusThreeGuest() {
+    pointsGuest += 3;
+    document.getElementById("counter-el-guest").innerHTML = pointsGuest;
 }
