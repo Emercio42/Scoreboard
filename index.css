@@ -5,10 +5,11 @@
 }
 
 body {
-    margin: 0;
+    margin: 80px auto;
     text-align: center;
     width: 575px;
     height: 385px;
+    background: #10131d;
 
 }
 
@@ -19,6 +20,7 @@ body {
     width: 575px;
     height: 385px;
     background:  #1B244A;
+    border: 1px solid;
    
 }
 
